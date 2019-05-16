@@ -1,15 +1,19 @@
 {
-  "name": "xi",
+  "name": "atom-xi",
   "main": "./lib/xi",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Atom package for Xi, a domain-specific language for live coding musical patterns in Ruby",
   "keywords": [
+    "xi",
+    "livecoding",
+    "atom",
+    "repl"
   ],
   "activationCommands": {
     "atom-workspace": "xi:toggle"
   },
-  "repository": "https://github.com/atom/xi",
-  "license": "MIT",
+  "repository": "https://github.com/xi-livecode/atom-xi",
+  "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
