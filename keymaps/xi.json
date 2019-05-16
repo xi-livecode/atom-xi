@@ -1,5 +1,12 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-o": "xi:toggle"
+  "atom-workspace atom-text-editor[data-grammar~='xi']": {
+    "shift-enter": "xi:eval",
+    "alt-shift-enter": "xi:eval-copy",
+    "cmd-enter": "xi:eval-multi-line",
+    "ctrl-enter": "xi:eval-multi-line",
+    "alt-cmd-enter": "xi:eval-multi-line-copy",
+    "alt-ctrl-enter": "xi:eval-multi-line-copy",
+    "shift-cmd-h": "xi:hush",
+    "shift-ctrl-h": "xi:hush"
   }
 }

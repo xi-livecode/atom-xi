@@ -1,22 +1,37 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle xi",
-        "command": "xi:toggle"
-      }
-    ]
+    "atom-text-editor": []
   },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "xi",
+          "label": "Xi",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "xi:toggle"
+              "label": "Boot Xi",
+              "command": "xi:boot"
+            },
+            {
+              "label": "Eval",
+              "command": "xi:eval"
+            },
+            {
+              "label": "Eval And Copy",
+              "command": "xi:eval-copy"
+            },
+            {
+              "label": "Eval Multi Line",
+              "command": "xi:eval-multi-line"
+            },
+            {
+              "label": "Eval Multi Line And Copy",
+              "command": "xi:eval-multi-line-copy"
+            },
+            {
+              "label": "Hush",
+              "command": "xi:hush"
             }
           ]
         }
