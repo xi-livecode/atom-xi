@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle xi",
+        "command": "xi:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "xi",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "xi:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
