@@ -1,7 +1,7 @@
 {
   "name": "xi",
   "main": "./lib/xi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Atom package for Xi, a domain-specific language for live coding musical patterns in Ruby",
   "keywords": [
     "xi",
