@@ -10,23 +10,31 @@
           "label": "Xi",
           "submenu": [
             {
-              "label": "Boot Xi",
-              "command": "xi:boot"
+              "label": "Start Xi",
+              "command": "xi:start"
             },
             {
-              "label": "Eval",
+              "label": "Stop Xi",
+              "command": "xi:stop"
+            },
+            {
+              "label": "Restart Xi",
+              "command": "xi:restart"
+            },
+            {
+              "label": "Evaluate",
               "command": "xi:eval"
             },
             {
-              "label": "Eval And Copy",
+              "label": "Evaluate And Copy",
               "command": "xi:eval-copy"
             },
             {
-              "label": "Eval Multi Line",
+              "label": "Evaluate Multi Line",
               "command": "xi:eval-multi-line"
             },
             {
-              "label": "Eval Multi Line And Copy",
+              "label": "Evaluate Multi Line And Copy",
               "command": "xi:eval-multi-line-copy"
             },
             {

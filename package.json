@@ -14,7 +14,7 @@
       "xi:eval",
       "xi:eval-multi-line"
     ],
-    "atom-workspace": "xi:boot"
+    "atom-workspace": "xi:start"
   },
   "repository": "https://github.com/xi-livecode/atom-xi",
   "license": "GPL-3.0",
